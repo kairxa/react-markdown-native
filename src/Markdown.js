@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { View } from 'react-native';
 import { Parser } from 'commonmark';
 import ReactRenderer from 'commonmark-react-renderer';
-import renderers from './renderers';
+import renderers from './renderers/index';
 
 var parser = new Parser();
 
