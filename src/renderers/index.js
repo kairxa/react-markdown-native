@@ -21,7 +21,7 @@ const renderers = {
   Code,
   CodeBlock,
   Emph,
-  Hardbreak: () => <View />
+  Hardbreak: () => <View />,
   Heading,
   HtmlBlock: () => null,
   HtmlInline: () => null,
