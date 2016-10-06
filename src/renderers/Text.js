@@ -7,8 +7,4 @@ const TextNode = props => (
   <Text style={styles.textStyle}>{props.children}</Text>
 );
 
-TextNode.propTypes = {
-  children: React.PropTypes.arrayOf(React.PropTypes.element),
-};
-
 export default TextNode;

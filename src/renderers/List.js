@@ -18,8 +18,3 @@ export default class List extends React.Component {
 List.childContextTypes = {
   type: React.PropTypes.string,
 };
-
-List.propTypes = {
-  type: React.PropTypes.string,
-  children: React.PropTypes.arrayOf(React.PropTypes.element),
-};

@@ -7,8 +7,4 @@ const CodeBlock = props => (
   <View style={styles.codeBlockStyle}>{props.children}</View>
 );
 
-CodeBlock.propTypes = {
-  children: React.PropTypes.arrayOf(React.PropTypes.element),
-};
-
 export default CodeBlock;

@@ -3,14 +3,10 @@ import { Text, View } from 'react-native';
 
 import styles from './styles';
 
-const Paragraph = props => (
+const BlockQuote = props => (
   <View style={styles.blockQuoteStyle}>
-    <Text style={styles.paragraphStyle}>{props.children}</Text>
+    <Text style={styles.allTextStyle}>{props.children}</Text>
   </View>
 );
 
-Paragraph.propTypes = {
-  children: React.PropTypes.arrayOf(React.PropTypes.element),
-};
-
-export default Paragraph;
+export default BlockQuote;

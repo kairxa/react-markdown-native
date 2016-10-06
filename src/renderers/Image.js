@@ -36,7 +36,3 @@ export default class ImageNode extends React.Component {
     );
   }
 }
-
-ImageNode.propTypes = {
-  src: React.PropTypes.string,
-};

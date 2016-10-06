@@ -16,9 +16,4 @@ const Heading = props => (
   <Text style={headingStyles[props.level]}>{props.children}</Text>
 );
 
-Heading.propTypes = {
-  children: React.PropTypes.arrayOf(React.PropTypes.element),
-  level: React.PropTypes.number,
-};
-
 export default Heading;

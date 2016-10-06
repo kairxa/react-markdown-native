@@ -14,9 +14,4 @@ Item.contextTypes = {
   type: React.PropTypes.string,
 };
 
-Item.propTypes = {
-  children: React.PropTypes.arrayOf(React.PropTypes.element),
-  nodeKey: React.PropTypes.string,
-};
-
 export default Item;

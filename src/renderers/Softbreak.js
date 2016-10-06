@@ -7,8 +7,4 @@ const Softbreak = props => (
   <Text style={styles.textStyle}>{props.children}</Text>
 );
 
-Softbreak.propTypes = {
-  children: React.PropTypes.arrayOf(React.PropTypes.element),
-};
-
 export default Softbreak;
