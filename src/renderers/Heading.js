@@ -17,7 +17,7 @@ const Heading = props => (
 );
 
 Heading.propTypes = {
-  children: React.PropTypes.string,
+  children: React.PropTypes.arrayOf(React.PropTypes.element),
   level: React.PropTypes.number,
 };
 
