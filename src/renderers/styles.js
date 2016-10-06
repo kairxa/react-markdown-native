@@ -76,7 +76,7 @@ const thematicBreak = {
   backgroundColor: '#F7F7F7',
 };
 
-export default StyleSheet.create({
+const styles = StyleSheet.create({
   blockQuoteStyle,
   codeStyle,
   codeBlockStyle,
@@ -94,3 +94,5 @@ export default StyleSheet.create({
   textStyle,
   thematicBreak,
 });
+
+export default styles;
