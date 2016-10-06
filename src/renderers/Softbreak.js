@@ -8,7 +8,7 @@ const Softbreak = props => (
 );
 
 Softbreak.propTypes = {
-  children: React.PropTypes.string,
+  children: React.PropTypes.arrayOf(React.PropTypes.element),
 };
 
 export default Softbreak;

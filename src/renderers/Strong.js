@@ -8,7 +8,7 @@ const Strong = props => (
 );
 
 Strong.propTypes = {
-  children: React.PropTypes.string,
+  children: React.PropTypes.arrayOf(React.PropTypes.element),
 };
 
 export default Strong;

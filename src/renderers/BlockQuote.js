@@ -10,7 +10,7 @@ const Paragraph = props => (
 );
 
 Paragraph.propTypes = {
-  children: React.PropTypes.string,
+  children: React.PropTypes.arrayOf(React.PropTypes.element),
 };
 
 export default Paragraph;

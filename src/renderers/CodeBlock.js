@@ -8,7 +8,7 @@ const CodeBlock = props => (
 );
 
 CodeBlock.propTypes = {
-  children: React.PropTypes.element,
+  children: React.PropTypes.arrayOf(React.PropTypes.element),
 };
 
 export default CodeBlock;

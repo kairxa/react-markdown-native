@@ -8,7 +8,7 @@ const Code = props => (
 );
 
 Code.propTypes = {
-  children: React.PropTypes.string,
+  children: React.PropTypes.arrayOf(React.PropTypes.element),
 };
 
 export default Code;

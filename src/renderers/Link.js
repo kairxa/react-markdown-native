@@ -32,6 +32,6 @@ export default class Link extends React.Component {
 }
 
 Link.propTypes = {
-  children: React.PropTypes.string,
+  children: React.PropTypes.arrayOf(React.PropTypes.element),
   href: React.PropTypes.string,
 };

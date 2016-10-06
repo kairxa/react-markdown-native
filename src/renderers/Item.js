@@ -15,7 +15,7 @@ Item.contextTypes = {
 };
 
 Item.propTypes = {
-  children: React.PropTypes.string,
+  children: React.PropTypes.arrayOf(React.PropTypes.element),
   nodeKey: React.PropTypes.string,
 };
 
