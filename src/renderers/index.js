@@ -1,3 +1,6 @@
+import React from 'react';
+import { View } from 'react-native';
+
 import BlockQuote from './BlockQuote';
 import Code from './Code';
 import CodeBlock from './CodeBlock';
@@ -18,6 +21,7 @@ const renderers = {
   Code,
   CodeBlock,
   Emph,
+  Hardbreak: () => <View />
   Heading,
   HtmlBlock: () => null,
   HtmlInline: () => null,
