@@ -27,32 +27,32 @@ const emphStyle = Object.assign({}, allTextStyle, {
 
 const headingOneStyle = Object.assign({}, allTextStyle, {
   fontSize: 24,
-  fontWeight: 700,
+  fontWeight: '700',
 });
 
 const headingTwoStyle = Object.assign({}, allTextStyle, {
   fontSize: 22,
-  fontWeight: 700,
+  fontWeight: '700',
 });
 
 const headingThreeStyle = Object.assign({}, allTextStyle, {
   fontSize: 18,
-  fontWeight: 700,
+  fontWeight: '700',
 });
 
 const headingFourStyle = Object.assign({}, allTextStyle, {
   fontSize: 16,
-  fontWeight: 700,
+  fontWeight: '700',
 });
 
 const headingFiveStyle = Object.assign({}, allTextStyle, {
   fontSize: 12,
-  fontWeight: 700,
+  fontWeight: '700',
 });
 
 const headingSixStyle = Object.assign({}, allTextStyle, {
   fontSize: 10,
-  fontWeight: 700,
+  fontWeight: '700',
 });
 
 const itemStyle = Object.assign({}, allTextStyle);
@@ -64,7 +64,7 @@ const linkStyle = Object.assign({}, allTextStyle, {
 const paragraphStyle = Object.assign({}, allTextStyle);
 
 const strongStyle = Object.assign({}, allTextStyle, {
-  fontWeight: 700,
+  fontWeight: '700',
 });
 
 const textStyle = Object.assign({}, allTextStyle);
